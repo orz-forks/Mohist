@@ -37,6 +37,7 @@ import net.minecraftforge.registries.ForgeRegistry;
 import net.minecraftforge.registries.RegistryManager;
 import com.mohistmc.api.PlayerAPI;
 import com.mohistmc.configuration.MohistConfig;
+import com.mohistmc.forge.ForgeVersion;
 import com.mohistmc.forge.MohistForgeUtils;
 import com.mohistmc.util.i18n.Message;
 
