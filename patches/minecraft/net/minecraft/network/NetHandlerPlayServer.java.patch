@@ -168,8 +168,9 @@
              {
 -                field_147370_c.warn("{} was kicked for floating too long!", (Object)this.field_147369_b.func_70005_c_());
 -                this.func_194028_b(new TextComponentTranslation("multiplayer.disconnect.flying", new Object[0]));
-+                this.disconnect(Message.getString("disconnect.flying"));
-                 return;
++                // this.disconnect(Message.getString("disconnect.flying"));
+-                return;
++                // return;
              }
          }
 @@ -205,8 +285,7 @@
@@ -178,8 +179,9 @@
                  {
 -                    field_147370_c.warn("{} was kicked for floating a vehicle too long!", (Object)this.field_147369_b.func_70005_c_());
 -                    this.func_194028_b(new TextComponentTranslation("multiplayer.disconnect.flying", new Object[0]));
-+                    this.disconnect(Message.getString("disconnect.flying"));
-                     return;
++                    // this.disconnect(Message.getString("disconnect.flying"));
+-                    return;
++                    // return;
                  }
              }
 @@ -226,7 +305,14 @@
